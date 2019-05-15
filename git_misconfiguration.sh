@@ -8,6 +8,7 @@ echo "${REPLY}"
 INPUT=${REPLY}
 
 COUNT=0
+WEBSITE=0
 
 read -p "Enter the location of .git files to Store (if not found,it will create the directory): "
 INPUT2=${REPLY}
@@ -40,12 +41,11 @@ echo "Number of websites to process: ${COUNT}"
 
 #Check and download  for .git directory on all domains
 
-WEBSITE=0
 
 for http in $(cat ${INPUT})
 do
 
 ((WEBISTE++))
-(wget -r -P ${INPUT2}website${WEBSITE}_output ${INPUT})
+(wget -r -P ${INPUT2}website${WEBSITE}_output -i ${INPUT})
 
 done
