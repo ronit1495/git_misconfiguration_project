@@ -1,1 +1,1 @@
-# git_misconfiguration_project
+# Dumping Git Data from Misconfigured Web Servers
