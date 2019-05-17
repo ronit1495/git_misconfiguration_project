@@ -5,7 +5,7 @@ How to use ?
 Supply domain name's text file with proper format:
 
 https://www.random.com   
-https://www.grofers.com   
+https://www.abcd.com   
 https://random/subdomain    
 https://domain.com/subdomain_a/subdomain_b        
        
